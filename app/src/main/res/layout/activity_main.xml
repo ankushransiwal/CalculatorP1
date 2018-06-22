@@ -10,13 +10,13 @@
         android:id="@+id/etNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="numberDecimal"
         android:hint="Enter a Number"
-        android:layout_alignParentLeft="true" />
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/btnSquareRoot"
@@ -31,23 +31,23 @@
         android:id="@+id/btnSquare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/btnSquareRoot"
+        android:layout_marginLeft="20dp"
         android:layout_marginStart="20dp"
-        android:text="Square"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="20dp" />
+        android:text="Square" />
 
     <Button
         android:id="@+id/btnCube"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/btnSquareRoot"
         android:layout_marginEnd="20dp"
-        android:text="Cube"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="20dp" />
+        android:layout_marginRight="20dp"
+        android:text="Cube" />
 
 
 </RelativeLayout>
